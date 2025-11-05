@@ -1,0 +1,1 @@
+"""Predict defects from new images."""
