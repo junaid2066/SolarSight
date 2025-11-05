@@ -30,17 +30,13 @@ See the repository tree in the project root. Key scripts are under `src/`:
 
 ## Quickstart
 1. Create a virtual environment and install dependencies:
-2.
-3. Place dataset into data/ as described above.
-
-
 ```bash
 python -m venv venv
 source venv/bin/activate # linux/mac
 venv\Scripts\activate # windows
 pip install -r requirements.txt
 ```
-
+2. Place dataset into data/ as described above.
 
 3. Preprocess & extract features (optional):
 ```bash
@@ -49,14 +45,19 @@ python src/data_preprocessing.py --data_dir data/ --out_dir data/processed
 4. Train models:
 ```bash
 python src/train_model.py --data_dir data/ --save_dir models/
+```
 
 5. Evaluate:
 ```bash
 python src/evaluate_model.py --model_path models/best_model.pkl --test_dir data/test
+```
+
 
 6. Predict a single image:
 ```bash
 python src/predict.py --model_path models/best_model.pkl --image_path path/to/image.jpg
+```
+
 
 
 
