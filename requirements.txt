@@ -1,0 +1,12 @@
+numpy
+pandas
+scikit-learn
+scikit-image
+opencv-python
+matplotlib
+tensorflow>=2.6
+xgboost
+joblib
+tqdm
+seaborn
+jupyter
