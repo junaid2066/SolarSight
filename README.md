@@ -30,6 +30,8 @@ See the repository tree in the project root. Key scripts are under `src/`:
 
 ## Quickstart
 1. Create a virtual environment and install dependencies:
+2.
+3. Place dataset into data/ as described above.
 
 
 ```bash
@@ -37,8 +39,8 @@ python -m venv venv
 source venv/bin/activate # linux/mac
 venv\Scripts\activate # windows
 pip install -r requirements.txt
+```
 
-2. Place dataset into data/ as described above.
 
 3. Preprocess & extract features (optional):
 ```bash
