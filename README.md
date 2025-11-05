@@ -1,20 +1,33 @@
 # SolarSight
-SolarSight: An Intelligent Framework for Automated Detection of Surface Defects in Solar PV Panels
+SolarSight: An Intelligent Framework for Automated Detection of Surface Defects in Solar PV Panels. It is a machine learning–based framework designed to automatically detect and classify surface defects in photovoltaic (PV) solar panels.  
+The project integrates both **classical computer vision** and **deep learning** methods to identify issues such as cracks, dust, and discoloration that can affect panel efficiency.
 
 ## Purpose
 Train and evaluate machine learning models (classical and deep learning) for detecting defects in PV solar panel images. The original notebook uses scikit-learn, XGBoost, TensorFlow (Keras), OpenCV and scikit-image for preprocessing and modeling.
 
+## 🧠 Overview
 
-## Dataset
-Download the dataset from Kaggle:
+This framework provides a unified workflow for:
+- Preprocessing and augmenting solar panel image datasets  
+- Extracting meaningful visual features (texture, color, and structural cues)  
+- Training and comparing **classical ML algorithms** (SVM, Random Forest, XGBoost) and **deep learning models** (CNNs)  
+- Evaluating models with accuracy, precision, recall, F1-score, and confusion matrices  
+- Deploying models for real-time or batch prediction on unseen PV panel images  
 
+---
 
-https://www.kaggle.com/datasets/alicjalena/pv-panel-defect-dataset
+## 📊 Dataset
 
+Public dataset used in this project:  
+**PV Panel Defect Dataset** — [Kaggle Link](https://www.kaggle.com/datasets/alicjalena/pv-panel-defect-dataset)
 
-Place the extracted dataset under the `data/` directory. Expected layout (example):
+**Classes:**  
+- Normal  
+- Crack  
+- Dust  
+- Discoloration  
 
-Adjust paths inside `src/config` variables or in the scripts if your dataset layout differs.
+You can download and place the dataset inside the `data/` folder:
 
 
 ## Repo Structure
@@ -64,6 +77,26 @@ python src/evaluate_model.py --model_path models/best_model.pkl --test_dir data/
 ```bash
 python src/predict.py --model_path models/best_model.pkl --image_path path/to/image.jpg
 ```
+
+## 📜 Citation
+
+If you use this work or dataset in your research, please cite:
+
+@misc{solarsight2025,
+  author = {Muhammad Junaid Asif, Muhammad Saad, Usman Nazakat, Uzair Khan},
+  title  = {SolarSight: An Intelligent Framework for Automated Detection of Surface Defects in Solar PV Panels},
+  year   = {2025},
+  publisher = {GitHub},
+  url    = {https://github.com/junaid2066/SolarSight}
+}
+
+## 👨‍💻 Author
+
+Muhammad Junaid Asif (AM-Tech)
+Computer Vision and Artificial Intelligence Researcher
+📧 junaid.asif@ncp.edu.pk
+🌐 [[LinkedIn ](https://www.linkedin.com/in/mjunaid94ee/)
+🌐 [[Portfolio]](https://sites.google.com/view/junaid94ee/about-me)
 
 
 
