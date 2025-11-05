@@ -96,7 +96,7 @@ If you use this work or dataset in your research, please cite:
 
 Muhammad Junaid Asif (AM-Tech)  
 Computer Vision and Artificial Intelligence Researcher  
-📧 junaid.asif@ncp.edu.pk  
+📧 mjunaid94ee@outlook.com 
 🌐 [[LinkedIn]](https://www.linkedin.com/in/mjunaid94ee/)  
 🌐 [[Portfolio]](https://sites.google.com/view/junaid94ee/about-me)
 
