@@ -22,10 +22,12 @@ Public dataset used in this project:
 **PV Panel Defect Dataset** — [Kaggle Link](https://www.kaggle.com/datasets/alicjalena/pv-panel-defect-dataset)
 
 **Classes:**  
-- Normal  
-- Crack  
+- Clean
+- Snowfall  
 - Dust  
-- Discoloration  
+- Bird Droppings
+- Physical Defect
+- Electrical Defect
 
 You can download and place the dataset inside the `data/` folder:
 
@@ -83,17 +85,11 @@ python src/predict.py --model_path models/best_model.pkl --image_path path/to/im
 If you use this work or dataset in your research, please cite:
 
 @misc{solarsight2025,
-
   author = {Muhammad Junaid Asif, Muhammad Saad, Usman Nazakat, Uzair Khan},
-  
   title  = {SolarSight: An Intelligent Framework for Automated Detection of Surface Defects in Solar PV Panels},
-  
   year   = {2025},
-  
   publisher = {GitHub},
-  
   url    = {https://github.com/junaid2066/SolarSight}
-  
 }
 
 ## 👨‍💻 Author
